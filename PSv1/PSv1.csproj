@@ -68,6 +68,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
+    <Content Include="_archive\template-heroic\css\heroic-features.css" />
+    <Content Include="_archive\template-heroic\gulpfile.js" />
+    <Content Include="_archive\template-heroic\index.html" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="_archive\template-heroic\vendor\jquery\jquery.js" />
+    <Content Include="_archive\template-heroic\vendor\jquery\jquery.min.js" />
+    <Content Include="_archive\template-heroic\vendor\jquery\jquery.slim.js" />
+    <Content Include="_archive\template-heroic\vendor\jquery\jquery.slim.min.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -80,6 +97,24 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="_archive\template-heroic\.gitignore" />
+    <Content Include="_archive\template-heroic\.travis.yml" />
+    <Content Include="_archive\template-heroic\LICENSE" />
+    <Content Include="_archive\template-heroic\package-lock.json" />
+    <Content Include="_archive\template-heroic\package.json" />
+    <Content Include="_archive\template-heroic\README.md" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\js\bootstrap.js.map" />
+    <Content Include="_archive\template-heroic\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="_archive\template-heroic\vendor\jquery\jquery.min.map" />
+    <Content Include="_archive\template-heroic\vendor\jquery\jquery.slim.min.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
